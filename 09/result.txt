@@ -1,14 +1,19 @@
 prior distribution     : Beta(1,1)
 posterior distribution : Beta(5,2)
+prob(pi >= 0.5|data)   : 0.89062
 prob(pi >= 0.8|data)   : 0.34464
 
 prior distribution     : Beta(0.1,0.1)
 posterior distribution : Beta(4.1,1.1)
+prob(pi >= 0.5|data)   : 0.93211
 prob(pi >= 0.8|data)   : 0.55932
 
 prior distribution     : Beta(5,5)
 posterior distribution : Beta(9,6)
+prob(pi >= 0.5|data)   : 0.78802
 prob(pi >= 0.8|data)   : 0.04385
+
+
 
 prior distribution     : Beta(1,1)
 posterior distribution : Beta(6,16)
