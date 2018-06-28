@@ -1,0 +1,27 @@
+prior distribution     : Beta(1,1)
+posterior distribution : Beta(5,2)
+prob(pi >= 0.8|data)   : 0.34464
+
+prior distribution     : Beta(0.1,0.1)
+posterior distribution : Beta(4.1,1.1)
+prob(pi >= 0.8|data)   : 0.55932
+
+prior distribution     : Beta(5,5)
+posterior distribution : Beta(9,6)
+prob(pi >= 0.8|data)   : 0.04385
+
+prior distribution     : Beta(1,1)
+posterior distribution : Beta(6,16)
+E[x|data]              : 6.40000
+Pr[pi <= 0.1|data]     : 0.01445
+
+prior distribution     : Beta(0.1,0.1)
+posterior distribution : Beta(5.1,15.1)
+E[x|data]              : 7.36585
+Pr[pi <= 0.1|data]     : 0.03224
+
+prior distribution     : Beta(5,5)
+posterior distribution : Beta(10,20)
+E[x|data]              : 4.44444
+Pr[pi <= 0.1|data]     : 0.00033
+
