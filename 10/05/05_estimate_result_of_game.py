@@ -32,9 +32,9 @@ class BayesianTable:
             output_fstr += ' (Lose)'
         print(output_fstr)
 
-        dirpath = op.dirname(op.abspath(__file__))
-        with open(op.join(dirpath, 'result.txt'), 'a') as f:
-            print(output_fstr, file=f)
+        # dirpath = op.dirname(op.abspath(__file__))
+        # with open(op.join(dirpath, 'result.txt'), 'a') as f:
+        #     print(output_fstr, file=f)
 
     def updates(self):
         for loop in range(100):
