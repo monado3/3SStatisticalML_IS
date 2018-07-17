@@ -41,8 +41,8 @@ def plot_2D_contour(distro, loop=None):
     else:
         ax.set_title(f'Approximate distro (q(z1)q(z2))  loops = {loop}')
         ax.contourf(X, Y, distro.pdf(x, y))
-        ax.text(0.1, 0.1, f'q(z1) ~ N({distro.m1}, {1/distro.sigma[0][0]})\n'
-                          f'q(z2) ~ N({distro.m2}, {1/distro.sigma[1][1]})\n',
+        ax.text(0.1, 0.1, f'q(z1) ~ N({distro.m1:.5f}, {1/distro.sigma[0][0]})\n'
+                          f'q(z2) ~ N({distro.m2:.5f}, {1/distro.sigma[1][1]})',
                 bbox=dict(facecolor='white'), transform=ax.transAxes)
 
     ax.grid()
